@@ -203,6 +203,8 @@ int main(int argc,char* args[]){
 							direction = RIGHT;
 						}
 						break;
+					case SDLK_ESCAPE:
+						quit = true;
 				}
 			}
 		}
